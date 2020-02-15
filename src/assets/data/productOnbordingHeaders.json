@@ -1,0 +1,38 @@
+[
+    {
+      "key": "title",
+      "description": "Name of the product",
+      "required": true
+    },
+    {
+      "key": "description",
+      "description": "Brief description about the product",
+      "required": false
+  
+    },
+    {
+      "key": "link",
+      "description": "An external link related to this product",
+      "required": true
+    },
+    {
+      "key": "price",
+      "description": "Cost per unit for this product",
+      "required": true
+    },
+    {
+      "key": "available_qtt",
+      "description": "Number of units, available in stock",
+      "required": true
+    },
+    {
+      "key": "pic_url",
+      "description": "Link(s) to product images",
+      "required": true
+    },
+    {
+      "key": "min_quantity",
+      "description": "Minimum buying quanitity",
+      "required": true
+    }
+  ]

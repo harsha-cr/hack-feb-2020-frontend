@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { UserDesignationComponent } from './user-designation.component';
-
+import {MatFormFieldModule} from '@angular/material/';
+import { ViewDesignationComponent } from './view-designation/view-designation.component';
 @NgModule({
-  declarations: [UserDesignationComponent],
+  declarations: [UserDesignationComponent, ViewDesignationComponent],
   imports: [
-    CommonModule
+    CommonModule, MatFormFieldModule
   ],
   exports:[UserDesignationComponent]
 })

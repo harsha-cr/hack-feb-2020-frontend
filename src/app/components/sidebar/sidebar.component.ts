@@ -8,17 +8,14 @@ declare interface RouteInfo {
     class: string;
 }
 export const ROUTES: RouteInfo[] = [
-    { path: '/dashboard', title: 'Dashboard',  icon: 'dashboard', class: '' },
+    // { path: '/dashboard', title: 'Dashboard',  icon: 'dashboard', class: '' },
     { path: '/user-profile', title: 'Users',  icon:'person', class: '' },
-    { path: '/user-profile', title: 'User Roles',  icon:'person', class: '' },
-    { path: '/user-profile', title: 'User Designation',  icon:'person', class: '' },
-    { path: '/user-profile', title: 'Manage status',  icon:'person', class: '' },
+    { path: '/user-roles', title: 'User Roles',  icon:'supervised_user_circle', class: '' },
+    { path: '/user-designation', title: 'User Designation',  icon:'nature', class: '' },
+    { path: '/manage-status', title: 'Manage status',  icon:'local_library', class: '' },
     { path: '/table-list', title: 'Products',  icon:'content_paste', class: '' },
-    { path: '/typography', title: 'Typography',  icon:'library_books', class: '' },
-    { path: '/icons', title: 'Icons',  icon:'bubble_chart', class: '' },
-    { path: '/maps', title: 'Maps',  icon:'location_on', class: '' },
-    { path: '/notifications', title: 'Notifications',  icon:'notifications', class: '' },
-    // { path: '/upgrade', title: 'Upgrade to PRO',  icon:'unarchive', class: 'active-pro' },
+    // { path: '/typography', title: 'Typography',  icon:'library_books', class: '' },
+    // { path: '/notifications', title: 'Notifications',  icon:'notifications', class: '' },
 ];
 
 @Component({
